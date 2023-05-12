@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seminario Typescript</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-grayDark">
+    
+<div class="h-full w-full flex justify-center mt-10">
+
+    <div id="content" class="w-4/5 h-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        
+        
+    </div>
+</div>
+    
+<script src="./script.js"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            gray: "#F0F2F5",
+        grayDark: "#2D3A3A",
+        blueText: "#58a6ff",
+        textGray: "#A8A7A7",
+        green: {
+          100: "#92E6A7",
+          200: "#058C42",
+          300: "#16DB65",
+          bg: "#04471C",
+        },
+          }
+        }
+      }
+    }
+  </script>
+</body>
+</html>
