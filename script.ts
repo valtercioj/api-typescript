@@ -23,4 +23,4 @@ function mostrarDados(dataUsers: TDataUser[]){
       }
 }
 
-fetch(url).then(resp => resp.json()).then(data => mostrarDados(data)).catch(err => console.log(err))
+fetch(urlJson).then(resp => resp.json()).then(data => mostrarDados(data)).catch(err => console.log(err))
